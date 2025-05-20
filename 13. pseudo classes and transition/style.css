@@ -1,0 +1,29 @@
+.btn {
+    height: 50px;
+    width: 200px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+
+    /* Transitions */
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+}
+
+.btn:hover {
+    color: aliceblue;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.btn:active{
+    color: aliceblue;
+    background-color: red;
+}

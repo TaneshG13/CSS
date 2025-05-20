@@ -1,0 +1,68 @@
+/* background color */
+#first {
+    color: black;
+    background-color: red;
+}
+
+#second {
+    color: black;
+    background-color: rgb(0, 255, 0);
+}
+
+#third {
+    color: black;
+    background-color: rgba(255,0,0,0.5);
+}
+
+button {
+    color: white;
+    background-color: #0000ff;
+}
+
+/* units */
+.box {
+    /* Absolute Units */
+    height: 100px;
+    width: 100px;
+}
+
+#box1 {
+    color: black;
+    background-color: red;
+}
+
+#box2 {
+    color: black;
+    background-color: green;
+}
+
+#box3 {
+    color: black;
+    background-color: blue;
+}
+
+/* Background Image */
+#bg-box{
+    background-image: url(https://images.seeklogo.com/logo-png/18/2/css3-logo-png_seeklogo-186678.png);
+    width: 300px;
+    height: 300px;
+}
+
+/* Visibility */
+#v-box1{
+    background-color: red;
+    color: black;
+    visibility: hidden;
+}
+
+#v-box2{
+    background-color: greenyellow;
+    color: black;
+    visibility: visible;
+}
+
+#v-box3 {
+    background-color: aqua;
+    color: black;
+    visibility: collapse;
+}

@@ -1,0 +1,33 @@
+/* Universal Selector: apply changes on entire webpage */
+* {
+    background-color: black;
+    color: whitesmoke;
+    text-align: justify;
+}
+
+/* Element Selector: apply changes on specific element */
+h1 {
+    color: aqua;
+}
+
+/* class Selector: apply changes on elements with specific class */
+.middle-paragraph {
+    color: chartreuse;
+}
+
+/* ID Selector: apply changes on element with specific ID */
+#last-paragraph {
+    color: magenta;
+}
+
+/* group selector: apply changes on multiple elements */
+h2, h3, h4 {
+    color: hotpink;
+}
+
+/* Descendant Selector: apply changes on elements that are descendants of another element */
+
+div p{
+    color: burlywood;
+}
+

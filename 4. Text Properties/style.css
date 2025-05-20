@@ -1,0 +1,82 @@
+.box {
+    /* Absolute Units */
+    height: 100px;
+    width: 100px;
+    text-decoration: underline;
+}
+
+#box1 {
+    color: black;
+    background-color: red;
+    text-align: left; /*  text align property */
+    text-decoration: underline; /*  text decoration property */
+}
+
+#box2 {
+    color: black;
+    background-color: greenyellow;
+    text-align: center;
+    text-decoration: overline;
+}
+
+#box3 {
+    color: black;
+    background-color: aqua;
+    text-align: right;
+    text-decoration: line-through;
+}
+
+#box4 {
+    color: black;
+    background-color: red;
+    text-decoration-style: dashed;
+}
+
+#box5 {
+    color: black;
+    background-color: greenyellow;
+    text-decoration-style: double;
+}
+
+#box6 {
+    color: black;
+    background-color: aqua;
+    text-decoration-style: solid;
+}
+
+#box7 {
+    color: black;
+    background-color: yellow;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+}
+
+#box8 {
+    text-transform: capitalize;
+}
+
+#box9 {
+    text-transform: lowercase;
+}
+
+#box10 {
+    text-transform: uppercase;
+}
+
+#box11 {
+    text-transform: none;
+}
+
+#first {
+    line-height: 30px;
+    font-size: 32px;
+    font-style: oblique;
+    font-family: "Popins", sans-serif;
+}
+
+#second {
+    line-height: 40px;
+    font-weight: 700;
+    font-style: italic;
+}
+

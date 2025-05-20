@@ -1,0 +1,17 @@
+* {
+    font-size: 50px;
+}
+
+#first {
+    height: 50vh;
+    width: 90vw;
+    background-color: aqua;
+    font-size: 25px;
+}
+
+#second {
+    background-color: blueviolet;
+    width: 70%;
+    height: 50%;
+    font-size: 2rem;
+}
